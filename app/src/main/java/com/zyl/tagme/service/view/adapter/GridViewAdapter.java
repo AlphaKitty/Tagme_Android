@@ -1,0 +1,21 @@
+package com.zyl.tagme.service.view.adapter;
+
+import com.zyl.tagme.service.pojo.Blog;
+
+import java.util.List;
+
+/**
+ * 网格布局适配器
+ */
+public class GridViewAdapter extends AbstractViewAdapter {
+
+    /**
+     * 用构造函数赋值
+     *
+     * @param blogs 元数据
+     * @param view  view
+     */
+    public GridViewAdapter(List<Blog> blogs, int view) {
+        super(blogs, view);
+    }
+}

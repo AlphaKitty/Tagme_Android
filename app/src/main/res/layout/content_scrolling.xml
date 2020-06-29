@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF424242"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CreateBlogActivity"
+    tools:showIn="@layout/activity_create_blog">
+
+    <TextView
+        android:id="@+id/blog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:textColor="@color/colorWhiteText"
+        android:textSize="20sp" />
+
+</androidx.core.widget.NestedScrollView>
